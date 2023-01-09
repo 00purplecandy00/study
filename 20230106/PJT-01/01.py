@@ -1,0 +1,8 @@
+f = open('01.txt','w',encoding='utf-8')
+f.write('Hello World!\n')
+f.write('1일차 파이썬 공부 중\n')
+f.write('2일차 파이썬 공부 중\n')
+f.write('3일차 파이썬 공부 중\n')
+f.write('4일차 파이썬 공부 중\n')
+f.write('5일차 파이썬 공부 중\n')
+f.close()
