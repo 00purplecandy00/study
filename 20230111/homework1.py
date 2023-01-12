@@ -104,7 +104,6 @@ for i in range(test_case):
         for n in a:
             print(n)
 
-
 # 2 
 # 2 
 # Lorem ipsum dolor sit amet, consectetur adipiscing elit.
