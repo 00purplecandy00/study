@@ -37,7 +37,11 @@ print('++#++')
 print('+++#+')
 print('++++#')
 
-
+list1 = ['+++++']
+for i in range(5):
+    list[i] = '#'
+for j in range(5):
+    print(list1)
 
 ##5
 a = int(input())
