@@ -1,11 +1,10 @@
-##1
-
+-- 1
 select
 	*
 from
 	employees;
     
-##2
+-- 2
 select
 	customerNumber,
     customerName,
@@ -13,7 +12,7 @@ select
 from
 	customers;
     
-##3
+-- 3
 select
 	firstName,
     lastName,
@@ -23,7 +22,7 @@ from
 order by
 	firstName asc;
     
-##4
+-- 4
 select
 	firstName as '이름',
 	lastName as '성',
@@ -33,7 +32,7 @@ from
 order by
     '이름' asc;
     
-##5
+-- 5
 select
 	employeeNumber,
     lastName,
@@ -46,7 +45,7 @@ order by
 	jobTitle desc,
     officeCode desc;
     
-##6
+-- 6
 select
 	*
 from
@@ -55,7 +54,7 @@ order by
 	quantityOrdered asc,
     priceEach asc;
 
-##7
+-- 7
 select
 	customerNumber,
     country,
@@ -66,7 +65,7 @@ order by
 	country asc,
     contactFirstName desc;
     
-##8
+-- 8
 select
 	productCode,
     quantityInStock,
