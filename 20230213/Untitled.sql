@@ -46,7 +46,8 @@ order by quantityInStock asc;
 -- 9
 select productCode,productName,quantityInStock
 from products
-where quantityInStock > 2000 and quantityInStock < 3000
+-- where quantityInStock > 2000 and quantityInStock < 3000
+where quantityInStock between 2000 and 3000
 order by quantityInStock desc;
 
 -- 10
@@ -83,6 +84,7 @@ order by sum(quantityOrdered * priceEach) desc;
 select year(orderDate),count(orderNumber)
 from orders
 group by year(orderDate);
+-- substring
 
 -- 16
 select productLine,max(quantityInStock) as max_stock
