@@ -36,18 +36,17 @@ values
 
 select * from users;
 -- 4
-update users set first_name = "Jeong eun" where userId = 2;
-update users set last_name = "Seo" where userId = 2;
-update users set birthday = "1988-10-22" where userId = 2;
+update users set 
+first_name = "Jeong eun",
+last_name = "Seo",
+birthday = "1988-10-22" 
+where userId = 2;
 
 -- 5
 update users set country= ifnull("Korea","");
 
-select * from users;
-
 -- 6
 delete from users where first_name='Beemo';
-
 
 -- 7
 delete from users where first_name = "Kwangsoo" and last_name = "Lee";
