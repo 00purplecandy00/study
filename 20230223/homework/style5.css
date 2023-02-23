@@ -1,0 +1,22 @@
+body{
+    display:inline-flex;
+}
+
+.box{
+    height:50px;
+    width: 100px;
+    border:2px solid black;
+    margin-right:100px;
+}
+
+.box1{
+    background-color:pink;
+}
+
+.box2{
+    background-color:skyblue;
+}
+
+.box3{
+    background-color: gray;
+}

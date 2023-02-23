@@ -1,0 +1,30 @@
+body{
+    border:1px solid black;
+    width : 330px;
+    height: 600px;
+    display : inline-block;
+}
+
+img{
+    margin: 30px;
+}
+
+h1, p{
+    margin-left:30px;
+    margin-right:30px;
+}
+
+span{
+    color:red;
+}
+
+.job{
+    font-style:italic;
+    color:darkgray;
+    border-bottom: 2px dashed black;
+    margin-bottom: 40px;
+}
+
+.contents{
+    text-decoration-line: underline;
+}
