@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .photo{
+            width:700px;
+            height:800px;
+            background-image:url("01.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position:relative;
+        }
+
+        .season{
+            position:absolute;
+            right:0px;
+            top: 0px;
+            background-image: url("03.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width:200px;
+            height:200px;
+        }
+
+        .flag{
+            position:absolute;
+            left:50px;
+            top:0px;
+            background-image: url("02.png");
+            background-repeat: no-repeat;
+            background-size: auto;
+            width:100px;
+            height:150px;
+        }
+
+        .text1{
+            font-size: 40px;
+            color:gray;
+            line-height: 30px;
+            margin-bottom:0px;
+            margin-left:10px;
+            margin-top: 30px;
+        }
+        
+        .text2{
+            font-size:50px;
+            color:black;
+            line-height: 50px;
+            margin:10px;
+        }
+
+        .text3{
+            font-size:60px;
+            color:black;
+            line-height: 60px;
+            font-weight: bold;
+            margin:10px;
+        }
+
+        .textBox{
+            display:inline-flex;
+            margin: 0;
+        }
+
+        .star{
+            width:50px;
+            height:50px;
+            margin:0px;
+        }
+
+        .text4{
+            line-height: 50px;
+            font-size: 40px;
+            font-weight: bold;
+            color:black;
+            display:inline-block;
+            margin:0px;
+        }
+
+        .text5{
+            line-height: 50px;
+            font-size: 40px;
+            font-weight: bold;
+            color:gray;
+            display:inline-block;
+            margin:0px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo">
+            <div class="season"></div>
+            <div class="flag"></div>
+        </div>
+        <div class="info">
+            <p class="text1">LG전자</p>
+            <p class="text2">LG 디오스 노크온</p>
+            <p class="text3">1,700,000</p>
+            <p class="textBox">
+                <img class="star" src="star.png" alt="">
+                <p class="text4">4.8</p>
+                <p class="text5">리뷰 300</p>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

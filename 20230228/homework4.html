@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width:100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .wrap{
+            display:flex;
+            align-self: center;
+            width:1200px;
+            height:auto;
+            background-color: lightblue;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .navBar{
+            width:1000px;
+            height:100px;
+            background-color:pink;
+            display: flex;
+            align-self: center;
+            justify-content: space-between;
+            margin-top:20px;
+            
+        }
+
+        .left{
+            width:200px;
+            height:80px;
+            line-height: 80px;
+            font-size: 50px;
+            background-color: deeppink;
+            border-radius: 10px;
+            color:white;
+            margin-left:20px;
+            margin-top:5px;
+        }
+
+        .right{
+            width:auto;
+            height:auto;
+            margin-right:20px;
+            margin-top:5px;
+            display:flex;
+        }
+
+        .login{
+            width:200px;
+            height:80px;
+            line-height: 80px;
+            font-size: 50px;
+            background-color: deeppink;
+            border-radius: 10px;
+            color:white;
+        }
+
+        .join{
+            width:200px;
+            height:80px;
+            line-height: 80px;
+            font-size: 50px;
+            background-color: deeppink;
+            border-radius: 10px;
+            color:white;
+            margin-right: 10px;
+        }
+
+        .contents{
+            width:1000px;
+            height:600px;
+            display:flex;
+            justify-self: center;
+            align-self: center;
+            margin-top:30px;
+            justify-content:space-between;
+            flex-direction: column;
+        }
+
+        .content{
+            width:1000px;
+            height:180px;
+            background-color: lightpink;
+            font-weight:bold;
+            color:white;
+            font-size: 50px;
+            line-height: 180px;
+
+        }
+
+        .footer{
+            width:1000px;
+            height:100px;
+            background-color:pink;
+            margin-top:20px;
+            font-weight:bold;
+            color:white;
+            font-size: 50px;
+            line-height: 100px;
+            margin-bottom: 20px;
+            align-self: center;
+        }
+
+        .content3{
+            display:flex;
+            justify-content: space-between;
+            background-color: lightblue;
+        }
+
+        .content4{
+            width:300px;
+            height:180px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="navBar">
+            <div class="left">logo</div>
+            <div class="right">
+                <div class="join">join</div>
+                <div class="login">login</div>
+            </div>           
+        </div>
+        <div class="contents">
+            <div class="content">content</div>
+            <div class="content">content</div>
+            <div class="content content3">
+                <div class="content4">content</div>
+                <div class="content4">content</div>
+                <div class="content4">content</div>
+            </div>
+        </div>
+        <div class="footer">footer</div>
+    </div>  
+</body>
+</html>
