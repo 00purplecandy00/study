@@ -1,0 +1,60 @@
+.wrap{
+    width:auto;
+    height:auto;
+}
+
+.top{
+    position:fixed;
+    background-color: white;
+    height:auto;
+    width:100%;
+    display:flex;
+    border-bottom: 2px solid black;
+    padding:0px;
+    justify-content: space-between;
+}
+
+.topTitle{
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: auto;
+}
+
+.logo{
+    width:250px;
+    height:fit-content;
+}
+
+.products{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top:200px;
+}
+
+.product{
+    min-width: 400px;
+    text-align: center;
+    font-weight: bolder;
+    flex-shrink:initial;
+    margin-top:50px;
+}
+
+.name{
+    font-size: 30px;
+}
+
+.phone{
+    width:80px;
+    height:auto;
+}
+
+.detail .title{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.info{
+    font-weight: 500;
+    font-size: 18px;
+}

@@ -1,0 +1,55 @@
+.wrap{
+    width: 750px;
+    height:auto;
+    border:1px solid black;
+}
+
+.photo{
+    height:500px;
+    width:auto;
+    position: relative;
+}
+
+.figure{
+    height:500px;
+    width:fit-content;
+    position:absolute;
+}
+
+.flag{
+    height:80px;
+    width:auto;
+    right:0px;
+    top:0px;
+    position:absolute;
+}
+
+.info{
+    text-align:center;
+    width:650px;
+    padding:50px;
+    
+}
+
+.detail{
+    display:flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-size:40px;
+}
+
+.job{
+    font-size:30px;
+    padding-top:15px;
+}
+
+p{
+    font-size:22px;
+    margin:5px;
+}
+
+.moreDetail{
+    text-align: left;
+}
