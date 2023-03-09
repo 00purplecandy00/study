@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+}
+
+.nav{
+    max-width:1000px;
+    min-width:768px;
+    height:80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid gray;
+    flex-wrap: wrap;
+}
+
+.navLeft{
+    margin-left: 20px;
+}
+
+.navRight{
+    display:flex;
+    justify-content: space-between;
+    padding-top:5px;
+    width:400px;
+}
+
+.navRight > a{
+    padding-left:10px;
+    line-height: 30px;
+    color:black;
+}
