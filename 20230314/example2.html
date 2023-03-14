@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const x = 1;
+        if(x === 1){
+            console.log(x)
+        }
+
+        const name = 'manager'
+
+        if (name === 'admin'){
+            console.log('관리자님 환영해요')
+        }else if(name === 'manager'){
+            console.log('매니저님 환영해요')
+        }else{
+            console.log(`${name}님 환영합니다`)
+        }
+
+        const fruits = {
+            a:'apple',
+            b:'banana'
+        }
+
+        for(const key in fruits){
+            console.log(key)
+            console.log(fruits[key])
+        }
+
+        const words = ['banana','kiwi','orange']
+        for (const word of words){
+            console.log(word)
+        }
+
+        const myString = 'banana'
+        for (const a of myString){
+            console.log(a)
+        }
+
+        const arr = [1,2,3]
+        for (const i in arr){
+            console.log(i)
+        }
+
+        for (const i of arr){
+            console.log(i)
+        }
+    </script>
+</body>
+</html>
