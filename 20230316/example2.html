@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>로또 추천 번호</h1>
+    <button id="btn">행운 번호 받기</button>
+    <div>
+        <ul></ul>
+    </div>
+
+    <script>
+        const h1Tag = document.querySelector('h1')
+        const btn = document.querySelector('#btn')
+        const ulTag = document.querySelector('ul')
+
+        const numbers = []
+        const lotto=[]
+        for(const i=1;i<46;i++){
+            numbers.push(i)
+        }
+
+        for(const j=0;j<6;j++){
+            const number = Math.random(numbers)
+            lotto.push(number)
+            numbers.pop(number)
+        
+        }
+
+
+
+        btn.addEventListener('click',(event)=>{
+            for(const j=0;j<6;j++){
+                const numbers = math.random(1,46)
+                const liTag = document.createElement('li')
+                liTag.textContent = inputData
+                ulTag.appendChild(liTag)
+            }
+        })
+    </script>
+</body>
+</html>

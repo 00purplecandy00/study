@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" class="input-text">
+    <button id="btn">+</button>
+    <ul></ul>
+
+    <script>
+        const inputTag = document.querySelector('.input-text')
+        const btn = document.querySelector('#btn')
+        const ulTag = document.querySelector('ul')
+
+        btn.addEventListener('click',(event)=>{
+            const inputData = inputTag.value
+
+            if(inputData.trim()){
+                const liTag = document.createElement('li')
+                liTag.textContent = inputData
+                ulTag.appendChild(liTag)
+                inputTag.value=''
+            }else{
+                alert('내용을 입력하세요')
+            }
+        })
+    </script>
+</body>
+</html>

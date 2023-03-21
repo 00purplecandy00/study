@@ -48,6 +48,7 @@
   // div#original 과 동일한 DOM 생성 후 div#copy 의 자식 요소로 추가
   let newDiv = document.querySelector('#original')
   let newDiv1 = newDiv.cloneNode(true)
+  newDiv1.classList.remove('container')
   document.querySelector('#copy').appendChild(newDiv1);
 </script>
 
