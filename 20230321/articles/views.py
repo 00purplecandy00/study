@@ -4,4 +4,4 @@ from django.shortcuts import render
 # 특정 기능을 수행하는 view 함수를 만듦
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'articles/index.html')
